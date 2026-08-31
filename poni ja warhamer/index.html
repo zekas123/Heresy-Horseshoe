@@ -11,7 +11,21 @@
 
   <div class="screen">
 
-    <div class="image_area">image area</div>
+
+    <div class="start_screen" id="start_screen">
+      <h1 class="title">Heresy Horseshoe</h1>
+      <button id="start_button">Start</button>
+    </div>
+
+    <div class="game_content" id="game_content">
+    <div class="image_area">
+
+        <video autoplay muted playsinline loop class="video-background" id="bgVideo">
+        <source src="assets/video/poni.mp4" type="video/mp4">
+        </video>
+
+
+    </div>
     <div class="text_area">
       <div class="textbox">
         <p class="prompt" id="text">What will you do?</p>
@@ -22,7 +36,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> </div>
 
   <script src="game.js"></script>
 </body>

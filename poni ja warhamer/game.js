@@ -1,6 +1,14 @@
 let currentScene = "start";
 let storyData = null;
 
+
+// starting screen
+document.getElementById('start_button').addEventListener('click', () => {
+    document.getElementById('start_screen').style.display = 'none';
+    document.getElementById('game_content').style.display = 'flex';
+    loadStory();
+});
+
 // Load the story data from the JSON file
 // Взяли и подгрузили JSON файл с историей, чтобы использовать его в игре.
 fetch('story.json')
