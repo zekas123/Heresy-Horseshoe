@@ -1,0 +1,349 @@
+{
+  "start_scene": "start",
+  "scenes": {
+    "start": {
+      "id": "49",
+      "text": "Podin hätälaskeutuminen Canterlotin kuninkaallisen kirjaston holvien läpi repi ilmakehän rikki ja murskasi vuosisatoja vanhat marmoripylväät. Savun, rikin ja otsonin keskellä mustaan seramiittipanssariin puettu jättiläinen havaitsee skannereissaan valtavan psyykkisen energian keskittymän läheisessä valtaistuinsalissa. Avaruusjääkäri nousee ylös hylkyjen keskeltä, virittää raskaan boltterinsa pahaenteisellä metallisella loksahduksella, kääntää kypäränsä hehkuvat linssit sinua kohti ja vaatii: Näyttäkää sektorin pääpsyykkaaja puhdistettavaksi tulella!",
+      "choices": [
+        { "text": "Tarjoa kuppikakkua ja teetä", "next": "1" },
+        { "text": "Hyökkää taialla", "next": "2" },
+        { "text": "Juokse kirjastoon", "next": "3" }
+      ]
+    },
+    "1": {
+      "id": "1",
+      "text": "Tarjosit hänelle kuppikakkua ja teetä sekä kysyit ystävällisesti, miltä tallilta hän on.",
+      "choices": [
+        { "text": "Jatka keskustelua", "next": "Nimetön kappale 1" }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "text": "Päätät ampua loitsun sarvestasi hänen aseeseensa ja pudottaa hänen päälleen pilven pegasoksella.",
+      "choices": [
+        { "text": "Hyökkää taialla", "next": "Nimetön kappale 15" }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "text": "Päätät juosta kirjastoon löytääksesi kielletyt muinaiset kääröt.",
+      "choices": [
+        { "text": "Juokse kirjastoon", "next": "Nimetön kappale 38" }
+      ]
+    },
+    "Nimetön kappale 1": {
+      "id": "5",
+      "text": "\"Ota kuppikakkua ja teetä! Mistä karsinasta sinä oikein olet kotoisin?\"\n\nAvaruussotilas: (iskee kupin maahan panssaroidulla nyrkillään tähdäten pulttiaseellaan ikkunasta kohti violettia repeämää)\n\"Karsinasta?! Olen Keisarin Musta Temppeliritari, en mikään karjaeläin! Taivaalla roihuaa Kaaoksen noituus. Vie minut teidän päänoitanne luo, tai tänne jää vain tuhkaa!\"",
+      "choices": [
+        { "text": "Vie hänet päänoidan luo", "next": "Nimetön kappale 2" },
+        { "text": "Näytä tie", "next": "Nimetön kappale 3" },
+        { "text": "Älä ammu, minä vien", "next": "Nimetön kappale 4" }
+      ]
+    },
+    "Nimetön kappale 2": {
+      "id": "16",
+      "text": "Hyvä on, mennään hänen luokseen!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 5" }
+      ]
+    },
+    "Nimetön kappale 3": {
+      "id": "27",
+      "text": "Selvä, minä näytän tien.",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 5" }
+      ]
+    },
+    "Nimetön kappale 4": {
+      "id": "38",
+      "text": "Älä vain ammu, minä vien sinut!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 5" }
+      ]
+    },
+    "Nimetön kappale 5": {
+      "id": "44",
+      "text": "Avaruussotilas: (tömistelee raskaasti kohti uloskäyntiä ladaten pulttiasettaan)\n\"Liiku edellä, muukalainen. Yksikin äkkinäinen liike – ja sarvesi pirstoutuu palasiksi. Eteenpäin!\"\n\nHe astuvat Canterlotin raunioituneille kaduille. Taivas on purppuranpunaisten pilvien peitossa, ja ilmassa tuoksuu otsoni sekä rikki. Edessä tien tukkii kolme ponivartijaa, joiden silmissä palaa Kaaoksen luonnoton, tulipunainen liekki.\n\nRiivattu vartija: (sihisee)\n\"Uutta lihaa Herroille... Verta Verijumalalle!\"\n\nAvaruussotilas: (kohottaa aseensa)\n\"Kerettiläisiä. Tuhottava.\"",
+      "choices": [
+        { "text": "Varoita hyökkäyksestä", "next": "Nimetön kappale 6" },
+        { "text": "He ovat omia vartijoita", "next": "Nimetön kappale 7" },
+        { "text": "Ammu heidät ensin", "next": "Nimetön kappale 8" }
+      ]
+    },
+    "Nimetön kappale 6": {
+      "id": "45",
+      "text": "Varo, he hyökkäävät!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 9" }
+      ]
+    },
+    "Nimetön kappale 7": {
+      "id": "46",
+      "text": "Seis, hehän ovat meidän omia vartijoitamme!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 9" }
+      ]
+    },
+    "Nimetön kappale 8": {
+      "id": "47",
+      "text": "Ammu heidät ensin!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 29" }
+      ]
+    },
+    "Nimetön kappale 9": {
+      "id": "48",
+      "text": "Kohtaus: Canterlotin valtaistuinsali\n\nOvet lennähtävät auki ryminällä. Valtaistuinsali on saastutettu: lyijylasi-ikkunat ovat säpäleinä, valtaistuimen yllä sykkii violetti Warpin Silmä, ja ilmassa leijuu mutatoitunut Prinsessa pimeän energian lonkeroiden ympäröimänä.\n\nSaastunut hallitsijatar: (ääni kaikuu kymmeninä tuonpuoleisina kaikuina)\n\"Pieni poni... Toitko lihan ja raudan soturin? Hän palaa ensimmäisenä. Polvistukaa Alkuperäisen Kaaoksen mahdin edessä!\"\n\nAvaruussotilas kohottaa pulttiaseensa, mutta telekineettisen energian aalto heittää hänet päin pylvästä. Marmori halkeilee, ja avaruussotilas lyyhistyy raskaasti toiselle polvelleen pudottaen vyötaskustaan hohtavan reliikin — Kiertoradan Vox-majakan.\n\nAvaruussotilas: (yskäisee, korisee hengityslaitteensa läpi suuntaasi)\n\"Muukalainen... majakka on kavioittesi juuressa! Iskuristeilijä kiertoradalla odottaa signaalia. Aktivoi se... Puhdista tämä saastan pesäke tulella!\"",
+      "choices": [
+        { "text": "Paina nappia", "next": "Nimetön kappale 10" },
+        { "text": "Aktivoi majakka", "next": "Nimetön kappale 11" },
+        { "text": "Tee se", "next": "Nimetön kappale 12" }
+      ]
+    },
+    "Nimetön kappale 10": {
+      "id": "6",
+      "text": "Hyvä on! Minä painan nappia!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 13" }
+      ]
+    },
+    "Nimetön kappale 11": {
+      "id": "7",
+      "text": "Minä teen sen, kestä vielä!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 13" }
+      ]
+    },
+    "Nimetön kappale 12": {
+      "id": "8",
+      "text": "Pelastuksen nimeen... aktivoin sen!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 13" }
+      ]
+    },
+    "Nimetön kappale 13": {
+      "id": "9",
+      "text": "Nimetön ponimme painaa vapisevalla kaviollaan voimakkaasti vox-majakan tulipunaista riimua. Laite päästää pitkän mekaanisen piipauksen ja lähettää kapeasti suunnatun säteen kohti revennyttä taivasta.\n\nSaastunut hallitsijatar: (kirkaisu, aistiessaan uhan)\n\"Mitä olet tehnyt, hölmö?! Omaan kotiisi...\"\n\nAvaruussotilas: (nousee vaivoin jaloilleen suojaten ponia panssaroidulla olkasuojuksellaan)\n\"Teit oikein, muukalainen. Kuolema on ainoa lääke tähän saastaan. Puhdistakoon Keisari sielumme!\"",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 14" }
+      ]
+    },
+    "Nimetön kappale 14": {
+      "id": "10",
+      "text": "Olit vain tavallinen poni, joka ei tuntenut sotaa. Mutta kaviollasi asetit pisteen Equestrian historialle. Nyt kukkivien laaksojen paikalla on vain poltettua lasia ja radioaktiivista tuhkaa.\n\nKaukaisen tulevaisuuden synkässä pimeydessä on vain sotaa.\n\nLOPPUTULOS 1/3: TUHKA JA LIEKIT",
+      "choices": []
+    },
+    "Nimetön kappale 15": {
+      "id": "11",
+      "text": "Maaginen purkaus jumittaa pulttiaseen mekanismin täysin sulattaen metallin yhteen. Samalla sekunnilla avaruussotilaan niskaan iskeytyy musta ukkospilvi, joka sinkoaa hänen servomoottoreistaan sähkökipinöiden suihkulähteitä.\n\nAvaruussotilas: (karjuu raivosta, panssari kipinöi, jumittunut pulttiase savuaa käsissä)\n\n\"Kirottua ksenos-noituutta! Aseeni on jumissa! Sinä saastainen kavioeläin maksat tästä hengelläsi!\"\n\nHän heittää hyödyttömän pulttiaseen menemään. Moottorimiekka käynnistyy kirskuen — hampaat alkavat pyöriä ulvoen. Jalkojen oikosulun vuoksi avaruussotilas menettää hetkeksi tasapainonsa ja lyyhistyy toiselle polvelleen.\n\nSinulla on tasan kaksi sekuntia aikaa ennen kuin jättiläinen nousee ylös.",
+      "choices": [
+        { "text": "Kaada kaappi", "next": "Nimetön kappale 16" },
+        { "text": "Pakene käytävään", "next": "Nimetön kappale 17" },
+        { "text": "Revi kypärä pois", "next": "Nimetön kappale 18" }
+      ]
+    },
+    "Nimetön kappale 16": {
+      "id": "12",
+      "text": "Viimeistele hänet kaatuvalla kaapilla!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 19" }
+      ]
+    },
+    "Nimetön kappale 17": {
+      "id": "13",
+      "text": "Juokse käytävään, kun hän on vielä jumissa!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 37" }
+      ]
+    },
+    "Nimetön kappale 18": {
+      "id": "14",
+      "text": "Yritä repiä kypärä pois hänen päästään!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 30" }
+      ]
+    },
+    "Nimetön kappale 19": {
+      "id": "15",
+      "text": "Telekinesialla romahdatat raskaan tammikaapin ryminällä suoraan avaruussotilaan niskaan. Laudat ryskävät poikki, ja jättiläinen kaatuu lattialle. Hänen ulvova moottorimiekkansa putoaa käsistä ja liukuu kohti kavioitasi.\n\nPäässäsi kaikuu Warpin matala, korahteleva kuiskaus: \"Vuodata hänen vertansa... Ota hänen miekkansa...\"\n\nAvaruussotilas: (puristuksissa, korisee)\n\n\"Saastainen petturi... Et uskalla...\"",
+      "choices": [
+        { "text": "Kirjaston puolesta", "next": "Nimetön kappale 20" },
+        { "text": "Toit sodan kotiimme", "next": "Nimetön kappale 21" },
+        { "text": "Ota moottorimiekka", "next": "Nimetön kappale 22" }
+      ]
+    },
+    "Nimetön kappale 20": {
+      "id": "17",
+      "text": "Tämä on meidän kirjastomme puolesta!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 25" }
+      ]
+    },
+    "Nimetön kappale 21": {
+      "id": "18",
+      "text": "Sinä itse toit sodan meidän kotiimme!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 26" }
+      ]
+    },
+    "Nimetön kappale 22": {
+      "id": "19",
+      "text": "Tartu moottorimiekkaan kavioillasi/magialla ja tee loppu Temppeliritarista!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 23" }
+      ]
+    },
+    "Nimetön kappale 23": {
+      "id": "20",
+      "text": "Lasket terän pyörivät hampaat voimapanssarin niveleen. Koneöljyn ja tulipunaisen veren suihku peittää marmorin. Hänen kuolemansa hetkellä verenpunainen säde iskeytyy suoraan sarvestasi kohti taivasta.\n\nKuiskaus päässäsi räjähtää voitonriemuiseksi karjunnaksi: \"KALLOJA KALLOVALTAISTUIMELLE!\"",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 24" }
+      ]
+    },
+    "Nimetön kappale 24": {
+      "id": "21",
+      "text": "Avaruussotilaan tappaminen herätti sinussa alkukantaisen teurastuksenhimon. Turkkisi värjäytyy tuhkanpunaiseksi, ja silmäsi leimahtavat rubiininpunaiseen liekkiin.\n\nSen sijaan, että juoksisit prinsessojen luo, otat mukaasi pulttiaseen sekä moottorimiekan ja lähdet puhdistamaan Canterlotin katuja — teurastaen erottelematta niin kulttilaiset, kauhistuneet kaupunkilaiset kuin eloonjääneet avaruussotilaatkin.",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 28" }
+      ]
+    },
+    "Nimetön kappale 25": {
+      "id": "22",
+      "text": "Avaruussotilas: (korisee särkyneen visiirin läpi)\n\n\"Tyhmä karjaeläin... Kirjasto on mitätön... Imperiumi polttaa teidät kaikki...\"",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 27" }
+      ]
+    },
+    "Nimetön kappale 26": {
+      "id": "23",
+      "text": "Avaruusjääkäri: (sylkee verta lattialle)\n\n\"Sota... kestää ikuisesti, muukalainen. Ja te olette siinä pelkkää polttoainetta...\"",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 27" }
+      ]
+    },
+    "Nimetön kappale 27": {
+      "id": "24",
+      "text": "\"Tämä on meidän kirjastomme puolesta! Sinä itse toit sodan meidän kotiimme!\"\n\nAvaruussotilas: (korisee särkyneen visiirin läpi sylkien verta marmorille)\n\n\"Tyhmä karjaeläin... Kirjasto on mitätön... Sota kestää ikuisesti, muukalainen, ja te olette siinä pelkkää polttoainetta. Imperiumi polttaa teidät kaikki...\"\n\nMeidän ponimme: (silmät leimahtavat Warpin verenpunaiseen tuleen)\n\n\"Pala sitten ensimmäisenä!\"\n\nMoottorimiekka iskeytyy karjuen panssarin niveleen. Koneöljyn ja tulipunaisen veren suihku peittää lattian.",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 24" }
+      ]
+    },
+    "Nimetön kappale 28": {
+      "id": "25",
+      "text": "Tässä maailmassa ei ole enää sijaa harmonian magialle eikä ystävyydelle. Yksi kaatunut kaappi, yksi moottorimiekan heilahdus — ja tavallisesta Equestrian asukkaasta tuli loputtoman teurastuksen ensimmäinen airut.\n\nValtaistuinsali ei lankea prinsessojen eikä Keisarin edessä. Se hukkuu vereen.\n\nLOPPUTULOS 2: VASKIVALTAISTUIMEN MESTARI",
+      "choices": []
+    },
+    "Nimetön kappale 29": {
+      "id": "26",
+      "text": "Avaruussotilas: (repii vartijat kappaleiksi pulttiaseen sarjalla)\n\n\"Puhdistettu!\"\n\nSamalla kun avaruussotilas laskee aseensa, isket epäröimättä verenpunaisella säteellä sarvestasi suoraan hänen voimareppuunsa. Panssari räjähtää kipinöiksi, jättiläinen lyyhistyy polvilleen, ja sinä nappaat telekinesialla hänen moottorimiekkansa ja leikkaat yhdellä sivalluksella hänen päänsä irti.",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 24" }
+      ]
+    },
+    "Nimetön kappale 30": {
+      "id": "28",
+      "text": "Samalla kun avaruussotilaan panssari kipinöi oikosulusta, keskität taivaansinistä magiaa ja kiskot telekinesialla raskaan kypärän irti hänen päästään.\n\nPanssarin alta paljastuvat soturin arpien peittämät, ankarat kasvot. Sarvesi koskettaa hänen paljasta otsaansa — ponin magia ja Warpin psyykkiset virrat sulautuvat yhdeksi ketjuksi murtautuen hänen augmentaatioidensa neurorajapintoihin.\n\nAvaruusjääkäri: (silmät leimahtavat väreilevään violettiin tuleen, ääni kahdentuu kymmeniksi kuiskauksiksi)\n\n\"Mitä... minun mieleni... Kaikki muuttuu! Suuri Arkkitehti... näen polut!\"",
+      "choices": [
+        { "text": "Näytä muutoksen magia", "next": "Nimetön kappale 31" },
+        { "text": "Mielesi on meidän", "next": "Nimetön kappale 32" },
+        { "text": "Kuuntele ääntäni", "next": "Nimetön kappale 33" }
+      ]
+    },
+    "Nimetön kappale 31": {
+      "id": "29",
+      "text": "Todista muutoksen todellinen magia!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 34" }
+      ]
+    },
+    "Nimetön kappale 32": {
+      "id": "30",
+      "text": "Mielesi kuuluu nyt meille!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 36" }
+      ]
+    },
+    "Nimetön kappale 33": {
+      "id": "31",
+      "text": "Kuuntele ääntäni, avaruussotilas!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 36" }
+      ]
+    },
+    "Nimetön kappale 34": {
+      "id": "32",
+      "text": "Yksisarvisen magian ja keisarillisten mikrosirujen yhdistyminen synnyttää hirviömäisen symbioosin. Avaruussotilas lyyhistyy polvilleen kumartaen edessäsi, ja hänen panssarinsa alkaa sulaa ja mutatoitua kasvattaen höyheniä sekä metallisia lonkeroita. Sarvesi muuttuu Teknokerettiläisyyden kimmeltäväksi kristalliseksi sauvaksi.",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 35" }
+      ]
+    },
+    "Nimetön kappale 35": {
+      "id": "33",
+      "text": "Keisarin uskollinen soturi murtui ja taivutettiin uuden herran tahtoon. Tieto, taikuus ja kielletty teknologia sulautuivat yhdeksi.\n\nCanterlotista ei tullut imperiumin linnoitusta eikä veren hautausmaata — siitä tuli Muutoksen Arkkitehdin ikuinen labyrintti, jossa pieni poni ohjaa rautaista jättiläistä langoistaan.\n\nLOPPUTULEMA 4: TZEENTCHIN TEKNO-KERETTILÄISYYS",
+      "choices": []
+    },
+    "Nimetön kappale 36": {
+      "id": "34",
+      "text": "\"Kuuntele ääntäni, avaruussotilas! Mielesi kuuluu nyt meille!\"\n\nAvaruusjääkäri: (puristaa kouristuksenomaisesti nyrkkejään, silmien visiirit välkkyvät binäärikoodia, ja kasvoille nousee luonnoton hymy)\n\n\"Keisari oli pelkkä valhe... Käskekää, mestari. Vain muutos on ikuista... Minun aseeni ja haarniskani ovat teidän...\"",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 35" }
+      ]
+    },
+    "Nimetön kappale 37": {
+      "id": "35",
+      "text": "Samalla kun avaruussotilas yrittää kaikin voimin nousta ylös kipinöivien servomoottoriensa varassa, käännyt ympäri ja laukkaat täyttä vauhtia kirjaston käytäviä pitkin suoraan linnan pääporteille.",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 39" }
+      ]
+    },
+    "Nimetön kappale 38": {
+      "id": "36",
+      "text": "Käännytte ympäri ja laukkaatte täyttä vauhtia kirjaston käytäviä pitkin suoraan linnan pääporteille.",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 39" }
+      ]
+    },
+    "Nimetön kappale 39": {
+      "id": "37",
+      "text": "Takaasi kuuluu raivokas karjunta ja raskaiden askelten ryminä, mutta ehdit syöksyä valtaistuinsaliin. Siellä kuninkaallinen vartiosto ja prinsessat muodostavat jo voimakasta suojakupolia kaupungin ylle.\n\nAvaruussotilas: (syöksyy perässä ulvovan miekan kanssa, mutta törmää harmonian maagiseen suojakenttään)\n\n\"Puhdistus... on väistämätön! Te ette voi piiloutua Keisarin vihalta!\"",
+      "choices": [
+        { "text": "Suojellaan Equestriaa", "next": "Nimetön kappale 40" },
+        { "text": "Suojakenttä kestää", "next": "Nimetön kappale 41" },
+        { "text": "Sinetöi soturi ulos", "next": "Nimetön kappale 42" }
+      ]
+    },
+    "Nimetön kappale 40": {
+      "id": "39",
+      "text": "Meidän täytyy suojella Equestriaa yhdessä!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 44" }
+      ]
+    },
+    "Nimetön kappale 41": {
+      "id": "40",
+      "text": "Suojakenttä kestää hänen iskunsa!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 44" }
+      ]
+    },
+    "Nimetön kappale 42": {
+      "id": "41",
+      "text": "Yhdistä magiasi vartioston kanssa ja sinetöi avaruussotilas ulkopuolelle!",
+      "choices": [
+        { "text": "Jatka", "next": "Nimetön kappale 43" }
+      ]
+    },
+    "Nimetön kappale 43": {
+      "id": "42",
+      "text": "Pelko ja viha eivät saaneet valtaa sydämestäsi. Yksinkertainen pako ja luottamus ystäviin pelastivat Canterlotin sydämen täydeltä tuholta.\n\nRautainen soturi jäi muurien ulkopuolelle, kun taas Equestria yhdisti voimansa puolustaakseen kotiaan pimeyden ja vieraiden sotien keskellä.\n\nLOPPUTULEMA 3: EQUESTRIA PITÄÄ PUOLENSA",
+      "choices": []
+    },
+    "Nimetön kappale 44": {
+      "id": "43",
+      "text": "Meidän ponimme: (astuu vartijoiden rinnalle, sarvi leimahtaa kirkkaaseen kultaiseen valoon)\n\n\"Suojakenttä kestää hänen iskunsa! Meidän täytyy suojella Equestriaa yhdessä!\"\n\nAvaruussotilas: (iskee moottorimiekalla suojakilpeen kaikin voimin, hampaat sinkoilevat kipinöinä kykenemättä murtamaan puolustusta)\n\n\"Kirotut ksenokset! Tämä ei ole ohi!\"\n\nSuuntaat kaiken jäljellä olevan magiasi monoliittisiin portteihin. Portinpuoliskot pamahtavat kiinni kumealla ryminällä, eristäen soturin ulkopuolelle ja sinetöiden linnan suojaavalla riimulla.",
+      "choices": [
+        { "text": "Näe lopputulos", "next": "Nimetön kappale 43" }
+      ]
+    }
+  }
+}
