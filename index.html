@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heresy Horseshoe RPG</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  
+  <div class="screen">
+
+
+    <div class="start_screen" id="start_screen">
+      <h1 class="title">Heresy Horseshoe</h1>
+      <h2 class="subtitle">RPG</h2>
+      <button id="start_button">Aloita peli</button>
+    </div>
+
+    <div class="game_content" id="game_content">
+    <div class="image_area">
+
+        <video autoplay muted playsinline loop class="video-background" id="bgVideo">
+        <source id="bgSource" src="assets/video/poni.mp4" type="video/mp4">
+        </video>
+
+
+    </div>
+    <div class="text_area">
+      <div class="textbox">
+        <p class="prompt" id="text">What will you do?</p>
+        <div class="options">
+          <button id="button1"></button>
+          <button id="button2"></button>
+          <button id="button3"></button>
+        </div>
+      </div>
+    </div>
+  </div> </div>
+
+  <script src="js/game.js"></script>
+  <script src="js/kahvipeli.js"></script>
+  
+</body>
+</html>
