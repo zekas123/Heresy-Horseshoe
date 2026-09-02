@@ -74,6 +74,10 @@ function showScene(sceneName) {
     if (scene.id == "1") {
         kahvipeli();
     }
+    
+    if (scene.id == "2") {
+        first_battle();
+    }
 
     // Get the buttons for the choices
     // Получаем кнопки для выбора

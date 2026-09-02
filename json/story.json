@@ -20,7 +20,7 @@
     },
     "2": {
       "id": "2",
-      "text": "Päätät ampua loitsun sarvestasi hänen aseeseensa ja pudottaa hänen päälleen pilven pegasoksella.",
+      "text": "Hyökkäät hänen kimppuunsa taikuudella.",
       "choices": [
         { "text": "Hyökkää taialla", "next": "Nimetön kappale 15" }
       ]
