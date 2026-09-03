@@ -74,9 +74,17 @@ function showScene(sceneName) {
     if (scene.id == "1") {
         kahvipeli();
     }
+    if (scene.id == "47") {
+        first_battle();
+    }
     
     if (scene.id == "2") {
         first_battle();
+    }
+
+    if (scene.id == "3") {
+        console.log("raner_game function called1111");
+        raner_game();
     }
 
     // Get the buttons for the choices
