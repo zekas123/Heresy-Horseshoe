@@ -14,6 +14,16 @@ document.getElementById('start_button').addEventListener('click', () => {
     
 });
 
+//restart button for endings
+const restartButton = document.getElementById('restart_button');
+
+restartButton.addEventListener('click', () => {
+    document.getElementById('game_content').style.display = 'none';
+    document.getElementById('start_screen').style.display = 'flex';
+    restartButton.style.display = 'none';
+    currentScene = storyData.start_scene;
+});
+
 // Load the story data from the JSON file
 // Взяли и подгрузили JSON файл с историей, чтобы использовать его в игре.
 function loadStory() {
@@ -100,9 +110,18 @@ function showScene(sceneName) {
     buttons.forEach(btn => {
         if (btn) btn.style.display = 'none';
     });
+    restartButton.style.display = 'none';
 
   // type out the text and show options
     typeText(scene.text, () => {
+            // if scene has no choices it is an ending, show restart button instead
+            if (scene.choices.length === 0) {
+            restartButton.style.display = 'inline-block';
+            return;
+        }
+
+        restartButton.style.display = 'none';
+
         scene.choices.forEach((choice, index) => {
             if (buttons[index]) {
                 buttons[index].textContent = choice.text;
