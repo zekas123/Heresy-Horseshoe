@@ -8,6 +8,8 @@ let count_go_attack = 1;
 let battle_bg_top = 0;
 let battle_bg_left = 0;
 //
+let space_presed = 0;
+
 let battle_bg = new Image();
 battle_bg.src = 'assets/images/battle/bg.jpg';
 battle_bg.style.width = '100%';
@@ -29,14 +31,14 @@ battle_me.style.zIndex = '11';
 battle_me.style.top = '400px'; 
 
 let battle_enemy = new Image();
-battle_enemy.src = `assets/images/battle/enemy_stay${count_stay_enemy}.png`;
+battle_enemy.src = `assets/images/battle/enemy_stay1.gif`;
 battle_enemy.style.width = '200px';
-battle_enemy.style.height = '260px';
+battle_enemy.style.height = '200px';
 battle_enemy.style.position = 'absolute';
 battle_enemy.style.right = '90px';
 battle_enemy.style.transform = 'translateX(50%)';
 battle_enemy.style.zIndex = '11';
-battle_enemy.style.top = '350px';
+battle_enemy.style.top = '400px';
 
 let battle_go_attack = new Image();
 battle_go_attack.src = `assets/images/battle/go_attack${count_go_attack}.png`;
@@ -58,6 +60,17 @@ magic_attack.style.zIndex = '11';
 magic_attack.style.top = '300px';
 
 
+let press = new Image();
+press.src = 'assets/images/battle/press.png';
+press.style.width = '350px';
+press.style.height = '200px';
+press.style.position = 'absolute';
+press.style.left = `50%`;
+press.style.top = `400px`;
+press.style.transform = 'translateX(-50%)';
+press.style.zIndex = '11';
+
+
 
 function first_battle() {
 
@@ -66,12 +79,13 @@ function first_battle() {
     container.append(battle_bg);
     container.append(battle_me);
     container.append(battle_enemy);
+    container.append(press);
     //timer for animation
 
     const animationInterval = setInterval(() => {
         //role animations
         count_stay++;
-        count_stay_enemy++;
+        
         //go attack animation
         if (go_attack_rule === true) {
             count_go_attack++;
@@ -105,13 +119,17 @@ function first_battle() {
         // Update the image sources for the animations
         battle_go_attack.src = `assets/images/battle/go_attack${count_go_attack}.png`;
         battle_me.src = `assets/images/battle/me_stay${count_stay}.png`;
-        battle_enemy.src = `assets/images/battle/enemy_stay${count_stay_enemy}.png`;
+        
     }, 200);
 
     document.addEventListener('keydown', (event) => {
         // Check if the pressed key
         if (event.code === 'Space' && !event.repeat) {
             console.log('Space');
+            space_presed += 1; 
+            if (space_presed >= 5){
+                if (container.contains(press)) container.removeChild(press);
+            }
 
             // Start the go attack animation
             if (go_attack_rule === false) {
