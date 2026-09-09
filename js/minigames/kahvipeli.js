@@ -15,7 +15,7 @@ kahvipeli_tea.src = 'assets/images/kahvipeli/tea.png';
 kahvipeli_tea.style.width = '200px';
 kahvipeli_tea.style.height = '200px';
 kahvipeli_tea.style.position = 'absolute';
-kahvipeli_tea.style.left = `${Math.floor(Math.random() * 291) + 10}%`; // 300 10 
+kahvipeli_tea.style.left = `${Math.floor(Math.random()* 80) + 10}%`; // 300 10 
 kahvipeli_tea.style.top = `${Math.floor(Math.random() * 81) + 10}%`; //90 10 
 kahvipeli_tea.style.transform = 'translateX(-50%)';
 kahvipeli_tea.style.zIndex = '11';
@@ -26,7 +26,7 @@ kahvipeli_blabla.src = 'assets/images/kahvipeli/blabla.png';
 kahvipeli_blabla.style.width = '200px';
 kahvipeli_blabla.style.height = '300px';
 kahvipeli_blabla.style.position = 'absolute';
-kahvipeli_blabla.style.left = `${Math.floor(Math.random() * 291) + 10}%`; // 300 10 
+kahvipeli_blabla.style.left = `${Math.floor(Math.random()* 80) + 10}%`; // 300 10 
 kahvipeli_blabla.style.top = `${Math.floor(Math.random() * 81) + 10}%`; //90 10 
 kahvipeli_blabla.style.transform = 'translateX(-50%)';
 kahvipeli_blabla.style.zIndex = '11';
@@ -36,7 +36,7 @@ kahvipeli_pan.src = 'assets/images/kahvipeli/pan.png';
 kahvipeli_pan.style.width = '240px';
 kahvipeli_pan.style.height = '200px';
 kahvipeli_pan.style.position = 'absolute';
-kahvipeli_pan.style.left = `${Math.floor(Math.random() * 291) + 10}%`; // 300 10 
+kahvipeli_pan.style.left = `${Math.floor(Math.random()  * 80) + 10}%`; // 300 10 
 kahvipeli_pan.style.top = `${Math.floor(Math.random() * 81) + 10}%`; //90 10 
 kahvipeli_pan.style.transform = 'translateX(-50%)';
 kahvipeli_pan.style.zIndex = '11';
@@ -46,10 +46,11 @@ kahvipeli_tea1.src = 'assets/images/kahvipeli/tea1.png';
 kahvipeli_tea1.style.width = '200px';
 kahvipeli_tea1.style.height = '130px';
 kahvipeli_tea1.style.position = 'absolute';
-kahvipeli_tea1.style.left = `${Math.floor(Math.random() * 291) + 10}%`; // 300 10 
+kahvipeli_tea1.style.left = `${Math.floor(Math.random() * 80) + 10}%`; // 300 10 
 kahvipeli_tea1.style.top = `${Math.floor(Math.random() * 81) + 10}%`; //90 10 
 kahvipeli_tea1.style.transform = 'translateX(-50%)';
 kahvipeli_tea1.style.zIndex = '11';
+
 
 
 
